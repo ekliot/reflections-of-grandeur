@@ -98,7 +98,7 @@
     }
 
     make_typer(target) {
-      return typewriter(target).withAccuracy(100).withMinimumSpeed(3000).withMaximumSpeed(3000).build(); //99 ) //30 ) //40 )
+      return typewriter(target).withAccuracy(99).withMinimumSpeed(30).withMaximumSpeed(40).build();
     }
 
     carriage(target) {

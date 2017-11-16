@@ -95,9 +95,9 @@ class TypeQueue
 
   make_typer: ( target ) ->
     return typewriter( target )
-              .withAccuracy( 100 ) #99 )
-              .withMinimumSpeed( 3000 ) #30 )
-              .withMaximumSpeed( 3000 ) #40 )
+              .withAccuracy( 99 )
+              .withMinimumSpeed( 30 )
+              .withMaximumSpeed( 40 )
               .build()
 
   carriage: ( target ) ->
