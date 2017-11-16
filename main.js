@@ -307,7 +307,7 @@
     },
     rednails: {
       text: "Who, today, would want to befriend the man that recites (screams) his short stories about <a href=\"http://gutenberg.net.au/ebooks06/0600771h.html\">Aztec gang wars</a> outside the drug store while you buy a soda?",
-      next: ""
+      next: "friendlyfaces"
     },
     friendlyfaces: {
       text: "Even the best of us need those friendly faces to soothe ill spirits.",
@@ -474,7 +474,7 @@
     },
     // root: {
     conversion: {
-      text: "They are not quite <i>di</i>versions from reality so much as they are... <i>con</i>versions. <a href=\"https://en.wikipedia.org/wiki/Portal:Robert_E._Howard/Selected_quote/2\">Convergences</a>, really.",
+      text: "They are not quite <i>di</i>versions from reality so much as they are... <i>Con</i>versions. <a href=\"https://en.wikipedia.org/wiki/Portal:Robert_E._Howard/Selected_quote/2\">Convergences</a>, really.",
       next: "thereverse"
     },
     thereverse: {
@@ -502,9 +502,19 @@
     },
     bycrom: {
       text: "It's hard to express how ridiculous that is.",
-      next: "",
+      next: "notalone",
       after: function() {
         return write_to('me', "Thankfully, someone else <a href=\"http://www.wealdcomics.com/?chapters=by-crom-the-zine\">already</a> <a href=\"http://www.wealdcomics.com/?chapters=by-crom-the-collected-by-crom\">has</a>.");
+      }
+    },
+    notalone: {
+      text: "It's a comforting thought, that we're not alone.",
+      next: "",
+      after: function() {
+        write_to('me', "At least someone out there is as crazy and weird as we are.");
+        write_to('me', "We can all hold our forts of fantasy.");
+        write_to('bob', "They know that the world is what we weave of it.");
+        return write_to('bob', "And they aren't afraid to share that yarn with the rest of us.");
       }
     }
   };
