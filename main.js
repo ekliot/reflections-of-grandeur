@@ -424,7 +424,7 @@
       text: "So I have to make <a href=\"https://thoughtcatalog.com/ryan-holiday/2017/03/dont-waste-time-arguing-what-a-good-man-is-be-one/\">changes in myself</a>, because to do anything else <i>would</i> be delusional.",
       next: "displace",
       after: function() {
-        return write_to('bob', "Howard had a very prectical approach to the enemies he expected: he lifted weights, boxed, and carried a gun.");
+        return write_to('bob', "Howard had a very practical approach to the enemies he expected: he lifted weights, boxed, and carried a gun.");
       }
     },
     displace: {
